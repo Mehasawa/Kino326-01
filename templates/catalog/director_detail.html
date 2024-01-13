@@ -1,0 +1,15 @@
+{%  extends 'index.html' %}
+{% load static %}
+{% block head %}
+        <title>Про режиссера</title>
+        <link rel="stylesheet" href="{% static '1.css' %}">
+{% endblock head %}
+{% block content %}
+    <img src="{{ director.image }}" alt="" width="150px">
+
+    <h2>Режиссер: {{ director.name }} {{ director.lastname }}</h2>
+    <h4>Дата рождения: {{ director.data }}</h4>
+    <h4>Количество фильмов: {{ director.filmcount }}</h4>
+    <h4>Лучшие фильмы: {{ director.best|linebreaks}}</h4>
+    <h4>Ссылка: <a href="{{ director.info }}">{{ director.info }}</a></h4>
+{% endblock content %}
