@@ -35,6 +35,6 @@ urlpatterns = [
     # path('podpiska/plusbalance/', views.plusbalance,name='plusbalance')
 ]
 '''
-newurls
+supernew urls
 
 '''
