@@ -34,3 +34,7 @@ urlpatterns = [
     path('podpiska/<int:userid>', views.topodpiska, name='podpiska'),
     # path('podpiska/plusbalance/', views.plusbalance,name='plusbalance')
 ]
+'''
+newurls
+
+'''
